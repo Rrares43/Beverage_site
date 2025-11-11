@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, request, session, redirect, url_for
 
 from db import Database
-
+#test comment
 load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY", "change_this_in_prod")
